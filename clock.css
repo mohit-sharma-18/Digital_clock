@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Orbitron', sans-serif;
+   
+    
 } 
 
 .section{
@@ -11,34 +13,41 @@
     background-color: rgb(24, 24, 24);
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-content: space-around;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+
 }
 
 #clock{
-    font-size: 100px;
+    font-size: 8rem;
     background: rgb(255, 0, 136);
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px 50px;
     display: inline-block;
     color: white;
     box-shadow: 0px 0px 40px 1px rgb(255, 0, 136);
+    transition:all .5s ease-in-out; 
+    font-family: 'Digital-7', arial;
     
 }
 #date{
     font-size: 40px;
      color: white;
    margin-top: 10px;
-  
+   transition:all .5s ease-in-out; 
 }
+
+
+
+
 
 /* Responsive */
 
 @media screen and (max-width:1000px){
     #clock{
-        width: 70%;
-        font-size: 60px;
+        width: 100%;
+        font-size: 6rem;
     }
     #date{
         font-size: 30px;
@@ -47,9 +56,8 @@
 
 @media screen and (max-width:850px){
     #clock{
-        width: 85%;
-        font-size: 60px;
-    }
+        width: 100%;
+        font-size: 5rem;
     #date{
         font-size: 25px;
     }
@@ -57,8 +65,8 @@
 
 @media screen and (max-width:700px){
     #clock{
-        width: 90%;
-        font-size: 40px;
+        width: 100%;
+        font-size: 4rem;
     }
     #date{
         font-size: 20px;
@@ -67,21 +75,21 @@
 
 @media screen and (max-width:610px){
     #clock{
-        width: 80%;
-        font-size: 30px;
+        width: 100%;
+        font-size: 3rem;
     }
     #date{
-        font-size: 20px;
+        font-size: 16px;
 }
 }
 
 @media screen and (max-width:400px){
     #clock{
-        width: 90%;
-        font-size: 25px;
+        width: 100%;
+        font-size: 2rem;
     }
     #date{
-        font-size: 15px;
+        font-size: 14px;
 }
 }
 
