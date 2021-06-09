@@ -58,10 +58,11 @@
     #clock{
         width: 100%;
         font-size: 5rem;
+    }
     #date{
         font-size: 25px;
     }
-}
+    }
 
 @media screen and (max-width:700px){
     #clock{
