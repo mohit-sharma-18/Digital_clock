@@ -1,3 +1,5 @@
+// Define index for months
+
 let month = new Array();
 month[0] = "January";
 month[1] = "February";
@@ -12,6 +14,7 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
+// Define index for days
 
 let day = new Array();
 day[0] = "Sunday";
@@ -22,6 +25,8 @@ day[4] = "Thursday";
 day[5] = "Friday";
 day[6] = "Saturday";
 
+
+// Main Function
 
 function digitalClock() {
     let time = new Date();
